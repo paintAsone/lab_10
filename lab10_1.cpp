@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     srand(time(0));
-    int i = rand()%8;
+    int i = rand()%9;
     string grade[] = {"A","B+","B","C+","C","D+","D","F","W"};
     cout << "Press Enter 3 times to reveal your future.\n";
     cin.get();
